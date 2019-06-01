@@ -2,10 +2,6 @@
 
 .controller.ds4 {
     background: url();
-    height: 598px;
-    width: 806px;
-    /*    margin-left: -403px;
-        margin-top: -280px;*/
 }
 
 .ds4 .touchpad.pressed {
@@ -13,18 +9,12 @@
 }
 
 .ds4 .stick {
-    position: absolute;
     background: url();
-    height: 94px;
-    width: 94px;
 }
 
-/* working intended till here. start, select, bumpers and triggers in the off state are in the body image (.controller.ds4) */
+/* start, select, bumpers and triggers in the off state are in the body image (.controller.ds4) */
 
 .ds4 .dpad {
-    position: absolute;
-    width: 125px;
-    height: 126px;
     top: 181px;
     left: 40%;
 }
@@ -46,6 +36,7 @@
     top: 94px;
 }
 
+/* decreased triggers width to decrease distance between them */
 /* triggers left and bumpers left should be equal just like triggers and bumpers width */
 
 .ds4 .back {
