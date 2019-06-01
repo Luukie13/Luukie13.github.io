@@ -28,3 +28,29 @@
     top: 181px;
     left: 30%;
 }
+
+/* all the face buttons */
+
+.ds4 .face.up {
+    left: 30%;
+    top: 0;
+    background-position: -37px 0px;
+}
+
+.ds4 .face.down {
+    left: 30%;
+    bottom: 0;
+    background-position: 0px 0;
+}
+
+.ds4 .face.left {
+    top: 45px;
+    left: 30%;
+    background-position: 104px 0;
+}
+
+.ds4 .face.right {
+    top: 45px;
+    right: 30%;
+    background-position: 52px 0;
+}
