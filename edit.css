@@ -18,3 +18,13 @@
     height: 94px;
     width: 94px;
 }
+
+/* working intended till here. start, select, bumpers and triggers in the off state are in the body image (.controller.ds4) */
+
+.ds4 .dpad {
+    position: absolute;
+    width: 125px;
+    height: 126px;
+    top: 200px;
+    left: 92px;
+}
