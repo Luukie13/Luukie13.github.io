@@ -39,7 +39,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 /*This class defines the base attributes of the skin*/
 
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
-    background: https://gamepadviewer.com/ps4-assets/disconnected.svgz;
+    background: url(ps4-assets/disconnected.svgz);
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
@@ -54,7 +54,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 .custom .trigger{/* These are the actual triggers themselves */
     width:86px;
     height:65px;
-    background: url(ps3-assets/triggers.png);
+    background: url(ps4-assets/triggers.svgz);
     opacity: 0;
 }
 /* The left and right classes below are used to position the triggers
@@ -73,7 +73,7 @@ placement */
 .custom .bumper{
     width: 89px;
     height: 28px;
-    background: url(ps3-assets/bumpers.png);
+    background: url(ps4-assets/bumpers.svgz);
     opacity: 0;
 }
 .custom .bumpers{
@@ -110,7 +110,7 @@ start and select buttons. */
 }
 /* Setting the size and CSS sprite for the start and select buttons */
 .custom .back, .custom .start{
-    background: url(ps3-assets/menus.png);
+    background: url(menus.svgz);
     width: 34px;
     height: 19px;
 }
@@ -140,7 +140,7 @@ start and select buttons. */
     position: absolute;
     width:62px;
     height:62px;
-    background: url(ps3-assets/face-buttons.png);
+    background: url(face.svgz);
 }
 .custom .button.pressed{
     background-position-y: -64px;
@@ -174,7 +174,7 @@ start and select buttons. */
     left: 74px;
 }
 .custom .face{
-    background: url(ps3-assets/dpad.png);
+    background: url(dpad.svgz);
     position: absolute;
 }
 .custom .face.up, .custom .face.down{
