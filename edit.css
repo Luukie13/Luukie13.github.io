@@ -26,31 +26,14 @@
     width: 125px;
     height: 126px;
     top: 181px;
-    left: 30%;
+    left: 50%;
 }
 
-/* all the face buttons */
+/* dont try to move the face buttons... it doesnt work */
 
-.ds4 .face.up {
-    left: 30%;
-    top: 0;
-    background-position: -37px 0px;
-}
-
-.ds4 .face.down {
-    left: 30%;
-    bottom: 0;
-    background-position: 0px 0;
-}
-
-.ds4 .face.left {
-    top: 45px;
-    left: 30%;
-    background-position: 104px 0;
-}
-
-.ds4 .face.right {
-    top: 45px;
-    right: 30%;
-    background-position: 52px 0;
+.ds4 .triggers {
+    width: 588px;
+    height: 90px;
+    position: absolute;
+    left: 30%px;
 }
