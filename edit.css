@@ -7,3 +7,14 @@
     /*    margin-left: -403px;
         margin-top: -280px;*/
 }
+
+.ds4 .touchpad.pressed {
+    background: url() no-repeat center;
+}
+
+.ds4 .stick {
+    position: absolute;
+    background: url();
+    height: 94px;
+    width: 94px;
+}
