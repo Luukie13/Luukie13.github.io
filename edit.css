@@ -32,7 +32,7 @@
 /* dont try to move the face buttons... it doesnt work */
 
 .ds4 .triggers {
-    width: 588px;
+    width: 352px;
     height: 90px;
     position: absolute;
     left: 40%;
