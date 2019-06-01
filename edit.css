@@ -40,10 +40,16 @@
 
 .ds4 .bumpers {
     position: absolute;
-    width: 588px;
+    width: 400px;
     height: 23px;
     left: 40%;
     top: 94px;
 }
 
-/* triggers left and bumpers left should be equal */
+/* triggers left and bumpers left should be equal just like triggers and bumpers width */
+
+.ds4 .back {
+    background: url();
+}
+
+/* removed select because I dont need it and its too much effort to move properly */
