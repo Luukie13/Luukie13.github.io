@@ -32,8 +32,18 @@
 /* dont try to move the face buttons... it doesnt work */
 
 .ds4 .triggers {
-    width: 352px;
+    width: 400px;
     height: 90px;
     position: absolute;
     left: 40%;
 }
+
+.ds4 .bumpers {
+    position: absolute;
+    width: 588px;
+    height: 23px;
+    left: 40%;
+    top: 94px;
+}
+
+/* triggers left and bumpers left should be equal */
