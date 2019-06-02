@@ -2,8 +2,6 @@
 
 .controller.ds4 {
     background: url();
-    height: 0px;
-    width: 0px;
 }
 
 .ds4 .touchpad.pressed {
@@ -58,5 +56,5 @@
 .ds4 .abxy {
     position: absolute;
     bottom: 28px;
-    left: 500px;
+    left: 40%;
 }
