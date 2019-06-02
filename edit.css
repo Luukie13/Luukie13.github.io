@@ -21,11 +21,11 @@
 /* start, select, bumpers and triggers in the off state are in the body image (.controller.ds4) */
 
 .ds4 .dpad {
-    top: 181px;
-    left: 40%;
+    bottom 28px;
+    left: 28px;
 }
 
-/* dont try to move the face buttons... it doesnt work */
+/* for moving face buttons they are called .abxy */
 
 .ds4 .triggers {
     width: 400px;
@@ -57,6 +57,6 @@
 
 .ds4 .abxy {
     position: absolute;
-    top: 159px;
-    left: 567px;
+    bottom: 0px;
+    left: 40%;
 }
