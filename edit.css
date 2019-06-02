@@ -44,9 +44,7 @@
 /* decreased triggers width to decrease distance between them */
 /* triggers left and bumpers left should be equal just like triggers and bumpers width */
 
-/* removed select because I dont need it and its too much effort to move properly */
-
-/* should remove empty space to the left & bottom */
+/* should remove .controller.ds4 SOMEHOW (or decrease size) */
 
 .ds4 .abxy {
     position: absolute;
