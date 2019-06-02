@@ -2,8 +2,6 @@
 
 .controller.ds4 {
     background: url();
-    height: 1px;
-    width: 1px;
 }
 
 .ds4 .touchpad.pressed {
@@ -37,14 +35,14 @@
     width: 400px;
     height: 90px;
     position: absolute;
-    left: 28px
+    left: 5%;
 }
 
 .ds4 .bumpers {
     position: absolute;
     width: 400px;
     height: 23px;
-    left: 28px;
+    left: 5%;
     top: 94px;
 }
 
