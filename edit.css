@@ -35,14 +35,14 @@
     width: 400px;
     height: 90px;
     position: absolute;
-    left: 40%;
+    left: 28px
 }
 
 .ds4 .bumpers {
     position: absolute;
     width: 400px;
     height: 23px;
-    left: 40%;
+    left: 28px;
     top: 94px;
 }
 
