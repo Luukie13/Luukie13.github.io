@@ -1,8 +1,7 @@
 /* Im trying to remove the body & the joysticks making a simplistic skin */
 
 .controller.ds4 {
-    height: 250px;
-    width: 500px;
+    background: url();
 }
 
 .ds4 .touchpad.pressed {
@@ -57,5 +56,5 @@
 .ds4 .abxy {
     position: absolute;
     bottom: 28px;
-    right: 28px;
+    left: 300px;
 }
