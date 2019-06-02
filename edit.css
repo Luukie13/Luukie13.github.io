@@ -1,9 +1,8 @@
 /* Im trying to remove the body & the joysticks making a simplistic skin */
 
 .controller.ds4 {
-    background: url();
-    height: 0px;
-    width: 0px;
+    height: 250px;
+    width: 500px;
 }
 
 .ds4 .touchpad.pressed {
@@ -27,7 +26,6 @@
 /* start, select, bumpers and triggers in the off state are in the body image (.controller.ds4) */
 
 .ds4 .dpad {
-    position: relative;
     bottom: 28px;
     left: 28px;
 }
@@ -37,15 +35,15 @@
 .ds4 .triggers {
     width: 400px;
     height: 90px;
-    position: relative;
-    left: 28px;
+    position: absolute;
+    left: 5%;
 }
 
 .ds4 .bumpers {
-    position: relative;
+    position: absolute;
     width: 400px;
     height: 23px;
-    left: 28px;
+    left: 5%;
     top: 94px;
 }
 
@@ -57,7 +55,7 @@
 /* should remove empty space to the left & bottom */
 
 .ds4 .abxy {
-    position: relative;
+    position: absolute;
     bottom: 28px;
-    left: 300px;
+    right: 28px;
 }
