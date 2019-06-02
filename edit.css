@@ -18,10 +18,16 @@
     width: 0px;
 }
 
+.ds4 .back {
+    background: url();
+    height: 0px;
+    width: 0px;
+}
+
 /* start, select, bumpers and triggers in the off state are in the body image (.controller.ds4) */
 
 .ds4 .dpad {
-    bottom 28px;
+    bottom: 28px;
     left: 28px;
 }
 
@@ -45,18 +51,12 @@
 /* decreased triggers width to decrease distance between them */
 /* triggers left and bumpers left should be equal just like triggers and bumpers width */
 
-.ds4 .back {
-    background: url();
-    height: 0px;
-    width: 0px;
-}
-
 /* removed select because I dont need it and its too much effort to move properly */
 
 /* should remove empty space to the left & bottom */
 
 .ds4 .abxy {
     position: absolute;
-    bottom: 0px;
+    bottom: 28px;
     left: 40%;
 }
