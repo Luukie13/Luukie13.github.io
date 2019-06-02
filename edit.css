@@ -16,12 +16,6 @@
     width: 0px;
 }
 
-.ds4 .back {
-    background: url();
-    height: 0px;
-    width: 0px;
-}
-
 /* start, select, bumpers and triggers in the off state are in the body image (.controller.ds4) */
 
 .ds4 .dpad {
@@ -64,5 +58,12 @@
     float: none;
     position: absolute;
     left: 50px;
+    top: 0px;
+}
+
+.ds4 .back {
+    float: none;
+    position: absolute;
+    left: 0px;
     top: 0px;
 }
