@@ -1,9 +1,7 @@
 /* Im trying to remove the body & the joysticks making a simplistic skin */
 
 .controller.ds4 {
-    background: url(https://luukie13.github.io/clear.png);
-    height: 175px;
-    width: 390px;
+    background: url();
 }
 
 .ds4 .touchpad.pressed {
