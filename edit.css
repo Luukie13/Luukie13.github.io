@@ -8,10 +8,14 @@
 
 .ds4 .touchpad.pressed {
     background: url() no-repeat center;
+    height: 0px;
+    width: 0px;
 }
 
 .ds4 .stick {
     background: url();
+    height: 0px;
+    width: 0px;
 }
 
 /* start, select, bumpers and triggers in the off state are in the body image (.controller.ds4) */
@@ -43,6 +47,8 @@
 
 .ds4 .back {
     background: url();
+    height: 0px;
+    width: 0px;
 }
 
 /* removed select because I dont need it and its too much effort to move properly */
