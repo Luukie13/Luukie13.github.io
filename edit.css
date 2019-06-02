@@ -62,5 +62,6 @@
 
 .ds4 .start {
     float: none;
+    position: absolute;
     left: 250px;
 }
