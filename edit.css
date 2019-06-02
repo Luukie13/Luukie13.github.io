@@ -1,5 +1,9 @@
 /* Im trying to remove the body & the joysticks making a simplistic skin */
 
+.controller.ds4 {
+    background: url();
+}
+
 /* .controller.ds4 {
     background: url(https://Luukie13.github.io/fix.png);
     height: 530px;
