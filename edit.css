@@ -54,7 +54,7 @@
 /* should remove empty space to the left & bottom */
 
 .ds4 .abxy {
-    position: absolute;
+    position: relative;
     bottom: 28px;
-    left: 40%;
+    left: 500px;
 }
