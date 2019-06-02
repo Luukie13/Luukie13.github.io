@@ -1,0 +1,70 @@
+/* Im trying to remove the body & the joysticks making a simplistic skin */
+
+.controller.ds4 {
+    background: url(https://Luukie13.github.io/fix.png);
+    background-repeat: no-repeat;
+    height: 530px;
+    width: 790px;
+    
+}
+.ds4 .touchpad.pressed {
+    background: url() no-repeat center;
+    height: 0px;
+    width: 0px;
+}
+
+.ds4 .stick {
+    background: url();
+    height: 0px;
+    width: 0px;
+}
+
+/* start, select, bumpers and triggers in the off state are in the body image (.controller.ds4) */
+
+.ds4 .dpad {
+    bottom: 0px;
+    left: 0px;
+}
+
+/* for moving face buttons they are called .abxy */
+
+.ds4 .triggers {
+    width: 370px;
+    height: 90px;
+    position: absolute;
+    left: 8px;
+    top: 7px;
+}
+
+.ds4 .bumpers {
+    position: absolute;
+    width: 370px;
+    height: 23px;
+    left: 8px;
+    top: 105px;
+}
+
+/* decreased triggers width to decrease distance between them */
+/* triggers left and bumpers left should be equal just like triggers and bumpers width */
+
+/* should remove .controller.ds4 SOMEHOW (or decrease size) */
+
+.ds4 .abxy {
+    position: absolute;
+    bottom: 28px;
+    left: 255px;
+}
+
+.ds4 .start {
+    float: none;
+    position: absolute;
+    left: 0px;
+    top: -27px;
+}
+
+.ds4 .back {
+    float: none;
+    position: absolute;
+    left: -103px;
+    top: -28px;
+}
