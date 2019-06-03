@@ -22,7 +22,7 @@
 /* start, select, bumpers and triggers in the off state are in the body image (.controller.ds4) */
 
 .ds4 .dpad {
-    bottom: 0px;
+    top: 160px;
     left: 20px;
 }
 
@@ -51,7 +51,7 @@
 
 .ds4 .abxy {
     position: absolute;
-    bottom: 28px;
+    top: 140px;
     left: 255px;
 }
 
