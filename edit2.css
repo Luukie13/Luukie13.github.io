@@ -26,6 +26,8 @@
     left: 20px;
 }
 
+/* for some reason bottom doesnt work for dpad and abxy */
+
 /* for moving face buttons they are called .abxy */
 
 .ds4 .triggers {
